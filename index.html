@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="css/swiper.min.css"/>
+		<script src="js/swiper.min.js"></script>
+		<style type="text/css">
+			*{
+				margin: 0;padding: 0;list-style: none;
+			}
+			header{
+				width: 100%;	
+				
+						
+			}
+			header img{
+				width: 100%;
+			}
+			input{
+				width:185px;
+				height: 28px;
+				border-radius: 10px;
+				position: absolute;
+				z-index: 999;
+				margin-top: -144px;
+				text-align: center;
+				margin-left: 30%;
+				background: rgba(0,0,0,0.3);
+				color: gainsboro;
+			}
+			nav{
+				display: flex;
+				width: 100%;
+				border-bottom:10px solid gainsboro;
+			}
+			nav ul{
+				display: flex;
+				width: 100%;
+				flex-wrap: wrap;
+				flex-wrap: wrap;
+			}
+			nav ul li{
+				width: 20%;
+				text-align: center;
+				line-height: 2rem;
+			}
+			nav ul li img{
+				width: 50%;
+			}
+			h3{
+				color: darkgray;
+				text-align: center;
+				margin-top: 5px;
+			}
+			.div1{
+				display: flex;
+				width: 100%;
+				justify-content: center;
+				margin-top:15px;
+			}
+			.div1 img{
+				width: 90px;
+				height: 75px;
+				margin-left:10px;
+				margin-right: 15px;
+			}
+			footer{
+				width: 100%;
+				position: fixed;
+				bottom: 0;
+				background: white;
+			}
+			footer ul{
+				display: flex;
+				width: 100%;
+			}
+			footer ul li{
+				width: 20%;
+				text-align: center;
+				font-size: 0.8rem;
+			}
+			footer ul li img{
+				width: 30px;
+				height: 30px;
+			}
+			footer ul li img:hover{
+				background: red;
+			}
+		</style>
+	</head>
+	<body>
+		<header class="swiper-container">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide"><img src="images/barent.png"/></div>
+				<div class="swiper-slide"><img src="images/barent.png"/></div>
+				<div class="swiper-slide"><img src="images/barent.png"/></div>
+			</div>
+		</header>
+		<input type="text" placeholder="搜索今日最新推荐"/>
+		<nav>
+			<ul>
+				<li><img src="images/index_07.png"/><p>美食</p></li>
+				<li><img src="images/index_09.png"/><p>水果</p></li>
+				<li><img src="images/index_11.png"/><p>干货</p></li>
+				<li><img src="images/index_13.png"/><p>营养师</p></li>
+				<li><img src="images/index_15.png"/><p>外卖</p></li>
+				<li><img src="images/index_22.png"/><p>定时</p></li>
+				<li><img src="images/index_23.png"/><p>定制菜谱</p></li>
+				<li><img src="images/index_22.png"/><p>月子餐</p></li>
+				<li><img src="images/index_09.png"/><p>甜点</p></li>
+				<li><img src="images/index_07.png"/><p>更多</p></li>
+				
+			</ul>
+		</nav>
+		<h3>--热门菜谱  BEST--</h3>
+		<div class="div1">
+			<div class="div2"><img src="images/index_27.png"/></div>
+			<div>
+				<h5>红烧白骨</h5>
+				<p>猪排骨提供人体生理活动必须的优质蛋白质。脂肪，尤其是丰富的钙质可维护骨骼健康</p>
+			</div>
+			
+		</div>
+		<div class="div1">
+			<div class="div2"><img src="images/index_27.png"/></div>
+			<div>
+				<h5>红烧白骨</h5>
+				<p>猪排骨提供人体生理活动必须的优质蛋白质。脂肪，尤其是丰富的钙质可维护骨骼健康</p>
+			</div>
+			
+		</div>
+	<h3>--热门菜谱  BEST--</h3>
+		<div class="div1">
+			<div class="div2"><img src="images/index_27.png"/></div>
+			<div>
+				<h5>红烧白骨</h5>
+				<p>猪排骨提供人体生理活动必须的优质蛋白质。脂肪，尤其是丰富的钙质可维护骨骼健康</p>
+			</div>
+			
+		</div>
+		<div class="div1">
+			<div class="div2"><img src="images/index_27.png"/></div>
+			<div>
+				<h5>红烧白骨</h5>
+				<p>猪排骨提供人体生理活动必须的优质蛋白质。脂肪，尤其是丰富的钙质可维护骨骼健康</p>
+			</div>
+			
+		</div>
+	<footer>
+		<ul>
+			<li><img src="images/footer_03.png"/><p>首页</p></li>
+			<li><img src="images/footer_05.png"/><p>发现</p></li>
+			<li><img src="images/footer_07.png"/><p>视频</p></li>
+			<li><img src="images/footer_09.png"/><p>社区</p></li>
+			<li><img src="images/footer_11.png"/><p>我的</p></li>
+			
+		</ul>
+	</footer>
+		<script>
+			var Swiper=new Swiper(".swiper-container",{})
+		</script>
+	</body>
+</html>
